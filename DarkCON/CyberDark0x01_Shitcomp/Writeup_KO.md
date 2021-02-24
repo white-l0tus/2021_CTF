@@ -147,7 +147,7 @@ passwd = "CyberDarkIsACoolGameAndIWannaPlayIt"*3
 decompress(passwd, "Installer")
 ```
 
-추측한 password를 바탕으로 주어진 파일을 복원하면 아래와 같이 실행 가능한 바이너리를 얻을 수 있다. flag는 바이너리를 실행하면 얻을 수 있다.
+추측한 password를 바탕으로 주어진 파일을 복원하면 아래와 같이 실행 가능한 바이너리를 얻을 수 있다. 바이너리를 실행하면 flag가 화면에 출력된다.
 
  ```
 l0tus@DESKTOP-6V5O4LP:/mnt/c/Users/SKYPC364/documents/GitHub/2021_CTF/darkcon/CyberDark0x01_Shitcomp$ file Installer
