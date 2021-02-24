@@ -13,8 +13,7 @@ V: CyberDarkIsACoolGameAndIWannaPlayIt
 
 ## Summary
 
-+ dex2jar
-+ ADB logcat
++ decrypt
 
 ## Exploit
 
