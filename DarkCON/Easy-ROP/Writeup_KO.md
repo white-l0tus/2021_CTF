@@ -27,11 +27,11 @@ Welcome to the world of pwn!!! This should be a good entry level warmup challeng
 
 ## Description
 
-There is one simple function.
+바이너리에서 유의미한 함수는 하나뿐이다.
 
 + main
 
-Stack buffer overflow occurs by gets()
+gets()에 의해 스택 버퍼 오버플로우가 발생한다.
 
 ## Exploit
 
@@ -45,7 +45,7 @@ prsi = 0x0040f4be
 prdx = 0x0047560e
 ```
 
-There are lots of gadgets to control system call at given binary. Therefore, challenge can be solved easily if "/bin/sh" exists.
+rdi, rdi, rdx, rax를 제어할 수 있고, syscall 가젯 또한 존재하므로 "/bin/sh" 문자열이 존재한다면 문제를 해결할 수 있다.
 
 **Write binsh at bss**
 
@@ -60,7 +60,7 @@ payload = b"/bin/sh\x00"
 p.sendline(payload)
 ```
 
-We can get address of "/bin/sh" by writing it using gets().
+ret2libc를 통해 gets() 함수를 호출해 bss 영역에 binsh 문자열을 작성해주자. 이제 binsh 문자열의 주소를 system의 인자로 전달해 줄 수 있다.
 
 **Call system("/bin/sh") using syscall gadget**
 
@@ -77,7 +77,7 @@ payload += p64(syscall)
 p.sendline(payload)
 ```
 
-Now we can get shell with syscall and binsh.
+마지막으로 syscall과 binsh를 이용해 system("/bin/sh")를 호출하면 쉘을 취득할 수 있다.
 
 ## Flag
 
