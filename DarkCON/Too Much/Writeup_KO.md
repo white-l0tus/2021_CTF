@@ -16,7 +16,7 @@ How about reversing 200 functions at once?? Try yourself!!!
 
 바이너리를 열면 main에서 일정 바이트만큼 입력받은 후, 입력이 조건을 만족하는지 200개 함수를 통해 확인한다.
 
-```
+```python
 import angr
 
 def main():
