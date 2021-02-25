@@ -20,7 +20,7 @@ warm up yourself and get the flag!
 ## Checksec
 
 + CANARY : Enabled
-+ FORTIRY : Disabled
++ FORTIFY : Disabled
 + NX : Enabled
 + PIE : Disabled
 + RELRO : Partial
