@@ -20,7 +20,7 @@ Welcome to the world of pwn!!! This should be a good entry level warmup challeng
 ## Checksec
 
 + CANARY : Enabled
-+ FORTIRY : Disabled
++ FORTIFY : Disabled
 + NX : Enabled
 + PIE : Disabled
 + RELRO : Partial
