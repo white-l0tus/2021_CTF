@@ -1,4 +1,4 @@
-# [DarkCON CTF] CyberDark_0x02: ShitComp
+# [DarkCON CTF] CyberDark_0x02: Installer
 
 ## Info
 
