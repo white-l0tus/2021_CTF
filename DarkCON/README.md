@@ -15,4 +15,5 @@
 
 + Pwn/NO-OUTPUT 9 solves / 495 points
 + Rev/CyberDark_0x01: ShitComp 9 solves / 495 points [KO](https://github.com/white-l0tus/2021_CTF/blob/main/DarkCON/CyberDark0x01_Shitcomp/Writeup_KO.md)
++ Rev/CyberDark_0x02: Installer 6 solves / 497 points [KO](https://github.com/white-l0tus/2021_CTF/blob/main/DarkCON/CyberDark0x02_Installer/Writeup_KO.md)
 
